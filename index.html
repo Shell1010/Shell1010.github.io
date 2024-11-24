@@ -1,41 +1,329 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your GitHub Projects</title>
-    <link rel="stylesheet" href="assets/styles.css">
-</head>
-<body>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <h1>Welcome to My GitHub Portfolio</h1>
-            <p>Here you'll find the projects I've contributed to and been a part of, feel free to explore.</p>
-        </div>
-    </header>
-
-    <!-- Projects Section -->
-    <section class="projects">
-        <div class="container">
-            <!-- Example project card, to be dynamically populated -->
-            <div class="project-card">
-                <h3>Project Name</h3>
-                <p>This is a brief description of the project.</p>
-                <a href="#" class="link" target="_blank">View Repository</a>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Astro v4.16.7" />
+    <title>Amin's Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body
+    class="flex min-h-screen items-center justify-center bg-black p-2 font-mono text-white sm:p-4"
+    style="font-family: &quot;JetBrains Mono&quot;, monospace"
+  >
+    <div class="container-wrapper">
+      <main
+        class="relative w-full max-w-6xl border border-white p-4 text-xs sm:p-6 sm:text-sm"
+      >
+        <div class="mt-2">
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+            <div class="md:col-span-1">
+              <header class="mb-6">
+                <h1 class="mb-1 text-3xl font-bold">Amin</h1>
+                <p class="text-sm text-gray-400">
+                  Software Developer
+                </p>
+                <div class="mt-2 space-y-1 text-xs text-gray-500">
+                  <p>
+                    <i class="fas fa-map-marker-alt inline-block w-4"></i>
+                    London, GB
+                  </p>
+                  <p>
+                    <i class="fas fa-envelope inline-block w-4"></i>
+                    <a
+                      href="/cdn-cgi/l/email-protection#026163764263776070677b2c7071"
+                      class="hover:text-white transition-colors"
+                      ><span
+                        class="__cf_email__"
+                        data-cfemail="731012073312061101160a5d0100"
+                        >amin.dev03@gmail.com</span
+                      ></a
+                    >
+                  </p>
+                  <p>
+                    <i class="fab fa-github inline-block w-4"></i>
+                    <a
+                      href="https://github.com/shell1010"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="hover:text-white transition-colors"
+                    >
+                      github.com/shell1010
+                    </a>
+                  </p>
+                </div>
+              </header>
+              <section>
+                <h2 class="mb-3 text-xl font-bold">Technical Expertise</h2>
+                <div class="space-y-2">
+                  <div>
+                    <div class="mb-1 flex items-center justify-between">
+                      <span class="text-sm">Python/Rust/Javascript</span>
+                      <span class="text-xs text-gray-400">Expert</span>
+                    </div>
+                    <div class="flex h-2 w-full">
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #0d0e0f"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #495057"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #adb5bd"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #dee2e6"
+                      ></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="mb-1 flex items-center justify-between">
+                      <span class="text-sm">Postgresql, MySQL, MangoDB</span>
+                      <span class="text-xs text-gray-400">Expert</span>
+                    </div>
+                    <div class="flex h-2 w-full">
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #0d0e0f"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #495057"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #adb5bd"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #dee2e6"
+                      ></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="mb-1 flex items-center justify-between">
+                      <span class="text-sm">Linux/Unix Systems</span>
+                      <span class="text-xs text-gray-400">Expert</span>
+                    </div>
+                    <div class="flex h-2 w-full">
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #0d0e0f"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #495057"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #adb5bd"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #dee2e6"
+                      ></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="mb-1 flex items-center justify-between">
+                      <span class="text-sm">Network Security</span>
+                      <span class="text-xs text-gray-400">Expert</span>
+                    </div>
+                    <div class="flex h-2 w-full">
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #0d0e0f"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #495057"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #adb5bd"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #dee2e6"
+                      ></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="mb-1 flex items-center justify-between">
+                      <span class="text-sm">Virtualisation</span>
+                      <span class="text-xs text-gray-400">Advanced</span>
+                    </div>
+                    <div class="flex h-2 w-full">
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #0d0e0f"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #495057"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #adb5bd"
+                      ></div>
+                      <div
+                        class="h-full w-0"
+                        style="background-color: #dee2e6"
+                      ></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="mb-1 flex items-center justify-between">
+                      <span class="text-sm">Containerisation</span>
+                      <span class="text-xs text-gray-400">Advanced</span>
+                    </div>
+                    <div class="flex h-2 w-full">
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #0d0e0f"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #495057"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #adb5bd"
+                      ></div>
+                      <div
+                        class="h-full w-0"
+                        style="background-color: #dee2e6"
+                      ></div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="mb-1 flex items-center justify-between">
+                      <span class="text-sm">Frontend Development</span>
+                      <span class="text-xs text-gray-400">Intermediate</span>
+                    </div>
+                    <div class="flex h-2 w-full">
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #0d0e0f"
+                      ></div>
+                      <div
+                        class="h-full w-1/4"
+                        style="background-color: #495057"
+                      ></div>
+                      <div
+                        class="h-full w-0"
+                        style="background-color: #adb5bd"
+                      ></div>
+                      <div
+                        class="h-full w-0"
+                        style="background-color: #dee2e6"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </section>
             </div>
+            <div class="md:col-span-2">
+              <section class="mb-6">
+                <h2 class="mb-4 text-2xl font-bold">Professional Experience</h2>
+                <div class="space-y-6">
+                  <div>
+                    <h3 class="text-xl font-bold">Freelance Development</h3>
+                    <p class="text-sm text-gray-400">Freelance | 2022 - Present</p>
+                    <p class="mt-2 text-sm">
+                      Specializing in creating bespoke applications and automation scripts for clients, with a focus on network security, API integrations, and scalable infrastructure. Includes both frontend and backend development.
+                    </p>
+                    <ul class="mt-2 list-inside list-disc text-sm text-gray-400">
+                      <li>
+                        Developed customized Discord bots tailored to client specs
+                      </li>
+                      <li>
+                        Designed and implemented automation scripts and network security tools
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+              <section>
+                <h2 class="mb-3 text-xl font-bold">Notable Projects</h2>
+                <div class="project-card border border-gray-700 p-3">
+                  <h3 class="mb-1 text-lg font-bold">selfcord.py</h3>
+                  <p class="mb-2 text-sm text-gray-400">
+                    A Discord API wrapper designed for selfbots written in Python. Developed mostly solo over 1-2 years, still ongoing.
+                  </p>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      Python </span><span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      API </span><span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      Wrappers </span>
+                  </div>
+                </div>
 
-            <!-- Additional project cards will be inserted here dynamically -->
+                <div class="project-card border border-gray-700 p-3">
+                  <h3 class="mb-1 text-lg font-bold">aqwhub</h3>
+                  <p class="mb-2 text-sm text-gray-400">
+                    A website built for the Adventure Quest Worlds community, providing in-depth information. It uses .njk files and Eleventy.js to convert markdown files into displayed HTML, CSS, and JavaScript, keeping a near identical format.
+                  </p>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      JavaScript </span><span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      Eleventy.js </span><span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      Markdown </span><span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      HTML </span><span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      CSS </span>
+                  </div>
+                </div>
+
+                <div class="project-card border border-gray-700 p-3">
+                  <h3 class="mb-1 text-lg font-bold">Spoofer.rs</h3>
+                  <p class="mb-2 text-sm text-gray-400">
+                    A Rust-based tool to spoof specific browsers' JA3 fingerprints 1:1, aimed at minimizing flagging and bypassing anti-bot measures.
+                  </p>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      Rust </span><span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      Networking </span><span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      Spoofing </span>
+                  </div>
+                </div>
+
+                <div class="project-card border border-gray-700 p-3">
+                  <h3 class="mb-1 text-lg font-bold">Harvester</h3>
+                  <p class="mb-2 text-sm text-gray-400">
+                    A large-scale bot utilizing the selfcord.py library to gather messages, channel data, guild data, and mutual server data. It was considered to be an information tool.
+                  </p>
+                  <div class="flex flex-wrap gap-2">
+                    <span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      Python </span><span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      selfcord.py </span><span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      PostgreSQL </span><span class="border border-gray-600 px-2 py-1 text-xs text-gray-300">
+                      Relational Databases </span>
+                  </div>
+                </div>
+                </div>
+              </section>
+            </div>
+          </div>
         </div>
-    </section>
-
-    <!-- Footer -->
-
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="assets/scripts.js"></script>
-
-</body>
+      </main>
+    </div>
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+  </body>
 </html>
-
