@@ -270,7 +270,7 @@ video {
   --tw-contain-size: ;
   --tw-contain-layout: ;
   --tw-contain-paint: ;
-  --tw-contain-style:     
+  --tw-contain-style:         
 ;
 }
 ::backdrop {
@@ -324,7 +324,7 @@ video {
   --tw-contain-size: ;
   --tw-contain-layout: ;
   --tw-contain-paint: ;
-  --tw-contain-style:     
+  --tw-contain-style:         
 ;
 }
 .fixed {
@@ -460,8 +460,8 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 .bg-black {
-  --tw-bg-opacity: 0.1;
-  background-color:  rgb(10 10 10  / var(--tw-bg-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 31 31 / var(--tw-bg-opacity));
 }
 .p-2 {
   padding: 0.5rem;
@@ -615,7 +615,7 @@ video {
   }
 }
 body {
-  background-color: #1f1f1f;
+  background-color: #000;
   color: #fff;
   font-family:
     JetBrains Mono,
@@ -682,9 +682,9 @@ body:before {
   z-index: -1;
 }
 main {
-  background-color: #000c;
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
+  background-color: #1f1f1f;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   position: relative;
   z-index: 1;
 }
